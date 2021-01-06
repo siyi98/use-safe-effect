@@ -13,7 +13,10 @@
     "url": "git+https://github.com/siyi98/use-safe-effect.git"
   },
   "keywords": [
-    "react"
+    "react",
+    "hooks",
+    "safe",
+    "async"
   ],
   "bugs": {
     "url": "https://github.com/siyi98/use-safe-effect/issues"
