@@ -1,0 +1,22 @@
+{
+  "name": "use-safe-effect",
+  "version": "0.0.1",
+  "description": "safe-effect-hook",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "siyi98",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/siyi98/use-safe-effect.git"
+  },
+  "keywords": [
+    "react"
+  ],
+  "bugs": {
+    "url": "https://github.com/siyi98/use-safe-effect/issues"
+  },
+  "homepage": "https://github.com/siyi98/use-safe-effect#readme"
+}
