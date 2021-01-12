@@ -1,13 +1,11 @@
 import { useEffect } from 'react';
 
-export type argsType = Function | Array<any>;
-
-const useSafeEffect = (mount: Function, ...args: argsType[]) => {
-  if (args.length && args.length > 2) {
+const useSafeEffect = (mount: Function, ...rest: any[]) => {
+  if (rest.length && rest.length > 2) {
     console.error('`use-safe-effect`仅支持传入三个参数：1.mount函数 2.unMount函数 3.入参');
     return false;
   }
-  const hasUnMount: boolean = typeof args[0] === 'function';
+  const hasUnMount: boolean = typeof rest[0] === 'function';
   useEffect(
     // componentDidMount
     () => {
@@ -21,11 +19,11 @@ const useSafeEffect = (mount: Function, ...args: argsType[]) => {
       // componentWillUnMount
       if (hasUnMount) {
         return () => {
-          args[0]();
+          rest[0]();
         };
       }
     },
-    hasUnMount ? args[1] : args[0]
+    hasUnMount ? rest[1] : rest[0]
   );
 };
 
