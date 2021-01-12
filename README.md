@@ -5,7 +5,7 @@
 ---
 
 
-:running: Throw away the `Promise`，Choose `Async/Await`
+:running: Throw away the `Promise`，Choose the `Async/Await`
 
 ## Installation
 ```shell
