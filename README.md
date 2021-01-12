@@ -1,8 +1,6 @@
 # use-safe-effect 
 
-[![npm version](https://badge.fury.io/js/use-safe-effect.svg)](https://www.npmjs.com/package/use-safe-effect)
-
-[![license](https://badgen.net/npm/license/use-async-effect)](./LICENSE)
+[![npm version](https://badge.fury.io/js/use-safe-effect.svg)](https://www.npmjs.com/package/use-safe-effect) [![license](https://badgen.net/npm/license/use-async-effect)](./LICENSE)
 
 ---
 
