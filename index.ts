@@ -1,6 +1,8 @@
 import { useEffect } from 'react';
 
-const useSafeEffect = (mount: any, ...args: any[]) => {
+export type argsType = Function | Array<any>;
+
+const useSafeEffect = (mount: Function, ...args: argsType[]) => {
   if (args.length && args.length > 2) {
     console.error('`use-safe-effect`仅支持传入三个参数：1.mount函数 2.unMount函数 3.入参');
     return false;
